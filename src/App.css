@@ -1,0 +1,105 @@
+body {
+  background-image: url(https://media.ambito.com/p/cc5fe3521efdeb9e1933767c5eabb1de/adjuntos/239/imagenes/039/614/0039614441/1200x675/smart/climajpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7vh;
+  width: 100vw;
+}
+
+.main-icon:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  padding: 50px;
+  border-radius: 30px;
+  border: 1px solid darkgray;
+  background-color: grey;
+  opacity: 0.8;
+  box-shadow: 0 0 52px 10px black
+}
+
+@media(max-width: 480px){
+  .card{
+    width: 70vw;
+    margin-bottom: 50px;
+  }
+}
+
+h1{
+  font-size: 10px;
+  margin: 0;
+}
+
+h2{
+  margin: 50px 0
+}
+
+h3{
+  margin: 0;
+}
+
+.conditions-temperature{
+  display: flex;
+  flex-direction: row;
+  gap: 100px
+}
+
+@media(max-width: 480px){
+  .conditions-temperature{
+    gap: 50px
+  }
+}
+
+.conditions{
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0;
+}
+
+.condition{
+  margin: 0;
+}
+
+.temperature{
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0;
+}
+
+.temperature p{
+  margin: 0
+}
